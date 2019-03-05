@@ -1,0 +1,17 @@
+.ItemList {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+}
+
+@media (max-width: 1300px) {
+  .ItemList{
+    justify-content: start;
+  }
+}
+@media (max-width: 934px) {
+  .ItemList{
+    justify-content: center;
+  }
+}
